@@ -1,0 +1,63 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+body {
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/050/751/542/small_2x/dreamlike-space-scene-with-bending-reality-reflected-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+div {
+  text-align: center;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  width: 400px;
+  background-color: transparent;
+  margin-top: 150px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.abc {
+  width: 300px;
+  height: 35px;
+  margin: 6px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 1px solid;
+  background-color: transparent;
+  text-indent: 10px;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+button {
+  cursor: pointer;
+}
+#success {
+  text-align: center;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  width: 400px;
+  background-color: transparent;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+video {
+  margin: 0%;
+  padding: 0%;
+  height: 150px;
+  width: 150px;
+  margin-left: 45%;
+  mix-blend-mode: multiply;
+  margin-top: 150px;
+}
