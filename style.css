@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-div {
+#box {
   height: 300px;
   width: 400px;
   text-align: center;
@@ -48,19 +48,14 @@ button {
   text-align: center;
   margin: auto;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  width: 400px;
-  background-color: transparent;
+  width: 350px;
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-video {
-  margin: 0%;
+#vid {
+  border-radius: 20px;
+  height: 250px;
   padding: 0%;
-  height: 150px;
-  width: 150px;
-  margin-left: 45%;
   mix-blend-mode: multiply;
-  margin-top: 150px;
+  background-color: transparent;
 }
